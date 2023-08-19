@@ -32,6 +32,10 @@ a {
     margin-left: 48px;
 }
 
+.header .container {
+    width: 1170px;
+}
+
 .header__inner {
     display: flex;
     align-items: center;
@@ -40,6 +44,9 @@ a {
 
 .header {
     padding: 37px 135px 0 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar__item {
@@ -154,8 +161,15 @@ a {
 
 /* About */
 .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
     padding-top: 160px;
+}
+
+.about .container {
+    width: 1170px;
 }
 
 .about__inner {
