@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>FoodEats - Get food delivery and more</title>
+        <title>FoodEats - Get Summer food delivery and more</title>
 
         <!-- Reset CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
@@ -18,39 +18,38 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
-        <link rel="stylesheet" href="./assets/css/responsive.css" />
+        <link rel="stylesheet" href="./assets/css/header.css" />
+        <link rel="stylesheet" href="./assets/css/footer.css" />
     </head>
     <body>
         <header class="header">
             <div class="container">
                 <div class="header__inner">
                     <!-- Logo -->
-                    <a href="https://phucbinh1609.github.io/FoodEats/">
+                    <a href="./" class="header-item">
                         <img src="./assets/icons/logo.svg" alt="Logo" />
                     </a>
 
                     <!-- Navbar -->
-                    <nav class="navbar">
+                    <nav class="navbar header-item">
                         <ul class="navbar__list">
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">
-                                    Get the app
-                                </a>
+                                <a href="./" class="navbar__link">Home</a>
                             </li>
                             <li class="navbar__item">
                                 <a href="./about.html" class="navbar__link"
-                                    >About</a
+                                    >About Us</a
                                 >
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Page</a>
+                                <a href="#!" class="navbar__link">Services</a>
                             </li>
                         </ul>
                     </nav>
 
                     <!-- Header action -->
-                    <div class="header-action">
-                        <a href="login.html" class="header-signin">Sign in</a>
+                    <div class="header-action header-item">
+                        <a href="signin.html" class="header-signin">Sign in</a>
                         <a href="signup.html" class="btn header-signup">
                             Sign up
                         </a>
@@ -65,9 +64,7 @@
                 <section class="hero">
                     <div class="hero__inner">
                         <!-- Hero Media -->
-                        <h1 class="title">
-                            Connect peoples with the best foods
-                        </h1>
+                        <h1 class="title">Connect peoples with Summer foods</h1>
 
                         <img
                             class="hero__decor hero__decor-left"
@@ -104,26 +101,27 @@
                             <h2 class="about__title">Our story</h2>
                             <p class="about__desc">
                                 Just Eat Take​away​.com is a lead­ing glob­al
-                                online food deliv­ery mar­ket­place,
+                                online Summer food deliv­ery mar­ket­place,
                                 con­nect­ing con­sumers with over 680,000
                                 con­nect­ed part­ners through its plat­form. We
                                 offer an online mar­ket­place where sup­ply and
-                                demand for food deliv­ery and order­ing meet.
+                                demand for Summer food deliv­ery and order­ing
+                                meet.
                             </p>
                             <a href="#!" class="btn learn-more">Learn More</a>
                         </div>
-                        <div class="about__media">
+                        <div class="about__media about__media2">
                             <h2 class="about__title">Our Mission</h2>
                             <p class="about__desc">
                                 We have a large store system with many
-                                nutritious foods to ensure you a great health
-                                along with a 24/7 online delivery team that
-                                deliver to your door with free price, the
+                                nutritious Summer foods to ensure you a great
+                                health along with a 24/7 online delivery team
+                                that deliver to your door with free price, the
                                 delivery will be very fast. Don't make you wait
                                 long. We have a large store system with many
-                                nutritious foods to ensure you a great health
-                                along with a 24/7 online delivery team that
-                                deliver to your door with free price, the
+                                nutritious Summer foods to ensure you a great
+                                health along with a 24/7 online delivery team
+                                that deliver to your door with free price, the
                                 delivery will be very fast. Don't make you wait
                                 long.
                             </p>
@@ -139,9 +137,14 @@
                     <img src="./assets/img/countdown.png" alt="" />
                 </section>
 
+                <div>
+                    <div class="div1"></div>
+                    <div class="div2"></div>
+                </div>
+
                 <section class="comment">
                     <h2 class="comment__title">
-                        What food lovers are saying about us
+                        What Summer food lovers are saying about us
                     </h2>
                     <div class="comment__inner">
                         <div class="comment__box">
@@ -203,11 +206,11 @@
         <footer>
             <div class="container">
                 <div class="footer__inner">
-                    <div class="footer__left">
+                    <div class="footer-item footer__left">
                         <img src="./assets/icons/logo.svg" alt="" />
                         <p class="footer__desc">
-                            Food, drinks, groceries, and more available for
-                            delivery and pickup.
+                            Summer food, drinks, groceries, and more available
+                            for delivery and pickup.
                         </p>
                         <div class="social__list">
                             <svg
@@ -274,19 +277,25 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="footer__right">
+                    <div class="footer-item footer__right">
                         <div class="footer__row">
                             <!-- Footer column 1 -->
                             <section class="footer__column">
                                 <h3 class="footer__heading">Get Started</h3>
                                 <ul class="footer__list">
                                     <li>
-                                        <a href="#!" class="footer__link">
+                                        <a
+                                            href="signin.html"
+                                            class="footer__link"
+                                        >
                                             FoodEats Sign In
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#!" class="footer__link">
+                                        <a
+                                            href="signup.html"
+                                            class="footer__link"
+                                        >
                                             FoodEats Sign Up
                                         </a>
                                     </li>
@@ -328,7 +337,10 @@
                                 <h3 class="footer__heading">Company</h3>
                                 <ul class="footer__list">
                                     <li>
-                                        <a href="#!" class="footer__link">
+                                        <a
+                                            href="about.html"
+                                            class="footer__link"
+                                        >
                                             About Us
                                         </a>
                                     </li>

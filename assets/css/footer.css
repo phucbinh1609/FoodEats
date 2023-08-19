@@ -1,0 +1,163 @@
+/* Desktop styles */
+footer {
+    overflow: hidden;
+}
+footer .container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.footer__inner {
+    margin-top: 108px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__row {
+    display: flex;
+}
+
+.footer__right {
+    width: 70%;
+}
+
+.footer__left {
+    width: 30%;
+}
+
+.footer__heading {
+    overflow: hidden;
+    margin-bottom: 24px;
+    color: #191720;
+    font-family: "Manrope", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer__link {
+    width: 122px;
+    color: #575363;
+    font-family: "Manrope", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.footer__list {
+    margin-right: 70px;
+}
+
+li {
+    margin-top: 16px;
+    overflow-y: hidden;
+    line-height: 2rem;
+}
+
+.footer__desc {
+    margin-top: 12px;
+    font-family: "Manrope", sans-serif;
+    width: 270px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.line {
+    position: relative;
+    margin-top: 55px;
+    width: 100%;
+}
+
+.social__list {
+    margin-top: 20px;
+}
+
+.social__hover:hover {
+    color: #572af8;
+    transition: 0.25s;
+}
+
+.cover {
+    line-height: 21px;
+    justify-content: space-between;
+    margin-top: 30px;
+    display: flex;
+}
+
+.copy {
+    display: flex;
+    font-family: "Manrope", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.service {
+    display: flex;
+    font-family: "Manrope", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.terms {
+    margin-left: 30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tablet styles (1024px) */
+@media (max-width: 1024px) {
+    .footer__inner {
+        gap: 3rem;
+    }
+    .footer-item {
+        width: 100%;
+    }
+    .footer__right {
+        width: 66%;
+        margin-left: unset;
+    }
+    .footer__left {
+        padding: 0 2rem;
+        width: 30%;
+    }
+    .footer__desc {
+        width: unset;
+    }
+
+    .footer__row {
+        flex-wrap: wrap;
+    }
+
+    .footer__column {
+        width: 50%;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__inner {
+        gap: 7rem;
+    }
+    .footer__left {
+        width: 100%;
+        padding: unset;
+    }
+    .footer__right {
+        width: 100%;
+    }
+    .service,
+    .copy {
+        width: 100%;
+    }
+    .cover {
+        flex-wrap: wrap;
+    }
+    .cover p {
+        font-size: 13px;
+    }
+}
