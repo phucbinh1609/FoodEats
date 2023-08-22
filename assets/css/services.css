@@ -20,7 +20,6 @@
     font-weight: 600;
     margin-bottom: 80px;
     line-height: 86px;
-    font-size: 50px;
 }
 
 .tag {
@@ -89,6 +88,7 @@
 
     .title {
         margin-bottom: 4rem;
+        font-size: 50px;
     }
 
     .service__item img {
