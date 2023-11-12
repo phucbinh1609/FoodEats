@@ -91,6 +91,10 @@
     text-align: center;
 }
 
+.blog-img img {
+    border-radius: 30px;
+}
+
 /* Tablet styles (1024px) */
 @media (max-width: 1024px) {
     .blog__inner {
