@@ -64,6 +64,11 @@
     -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+.policy,
+.terms {
+    cursor: pointer;
+}
+
 /* Tablet styles (1024px) */
 @media (max-width: 1024px) {
     .header {
@@ -81,6 +86,7 @@
         flex-wrap: wrap;
     }
     .header-action {
+        text-align: center;
         width: 100%;
     }
     .header {
