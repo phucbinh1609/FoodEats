@@ -9,11 +9,16 @@ main .container {
 }
 
 .question__inner h3 {
+    margin-top: 50px;
     color: #191720;
     font-family: "Roboto Serif", serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 50px;
+}
+
+.question__inner h3:first-child {
+    margin-top: -10px;
 }
 
 .question__inner p {
